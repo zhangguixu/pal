@@ -1,1 +1,15 @@
 开发阶段PAL的静态页面
+尝试
+1、搭建前端自动化开发环境
+	1) yo webapp
+	2) npm cache clean
+	3) npm update
+	如果运行grunt serve成功，运行一下grunt build，可能期间还需要手动安装其他的包
+2、使用sass进行css开发
+3、使用bower进行依赖管理
+4、使用grunt运行
+	4-1、进行js,css压缩
+	4-2、进行js混淆
+	4-3、进行图片压缩
+	4-4、生成生产页面
+	4-5、进行开发时页面的自动刷新（注意缓存的问题）
