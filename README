@@ -1,6 +1,8 @@
 开发阶段PAL的静态页面
 尝试
 1、搭建前端自动化开发环境
+	配置下载源 npm config get registry https://registry.npm.taobao.org
+	测试源  npm info underscore
 	1) yo webapp
 	2) npm cache clean
 	3) npm update
