@@ -1,0 +1,84 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+/*
+	网站的主体样式文件
+	CONTENTS
+		SETTINGS
+			variables.scss........变量文件
+		TOOLS
+
+		COMMPONENTS
+
+		BASE
+			screen.scss..........
+*/
+//自定义变量文件
+@import "_variables.scss";
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+/*全局样式*/
+body {
+  font:{
+  	size:14px;
+  	family:"微软雅黑,Helvetica Neue,Helvetica,Arial,sans-serif";
+  }
+}
+
+/*头部、导航栏*/
+.header{
+	height:80px;
+}
+/*申请按钮*/
+.navbar{
+	.pal-btn{
+		width: 90px;
+		height:32px;
+		line-height: 32px;
+		background-color:$base-color;
+		color:#fff !important;
+		padding: 0;
+		text-align: center;
+		margin-top:24px;
+		margin-left: 10px;
+		&:hover{
+			background-color:#337AB7 !important;
+			color:#fff !important;
+		}
+	}
+}
+/*大图*/
+.bgpic{
+	margin-top: 15px;
+}
+
+/*内容区*/
+.content{
+	margin-top: 20px;
+	.intro{
+		margin-bottom: 20px;
+		text-align: center;
+		border-bottom: 1px solid #d9d9d9;
+	}
+	.intro-title{
+		font-size: 30px;
+	}
+	.intro-body{
+		font-size: 15px;
+		color:#666;
+		line-height: 25px;
+	}
+}
+.section-title{
+	text-align: center;
+	h3{
+		font-size: 18px;
+	}
+}
+
+/*底部*/
+.footer{
+	height:260px;
+	background-color: $base-color;
+	color:white;
+}
+

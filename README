@@ -8,6 +8,10 @@
 	3) npm update
 	如果运行grunt serve成功，运行一下grunt build，可能期间还需要手动安装其他的包
 2、使用sass进行css开发
+	1)深度定制bootstrap ，建立自己的_variables.scss文件来覆盖bootstrap的默认设置文件_variables中的配置,注意一个加载顺序的问题
+	@import variables
+	@import bootstrap
+	2)进行boostrap模块裁减，缩减文件大小(目前实现不了，会自动补全原来的)
 3、使用bower进行依赖管理
 4、使用grunt运行
 	4-1、进行js,css压缩

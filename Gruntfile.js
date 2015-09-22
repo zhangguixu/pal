@@ -228,7 +228,7 @@ module.exports = function (grunt) {
         src: [
           '<%= config.dist %>/scripts/{,*/}*.js',
           '<%= config.dist %>/styles/{,*/}*.css',
-          '<%= config.dist %>/images/{,*/}*.*',
+         // '<%= config.dist %>/images/{,*/}*.*',  不对图片进行重命名
           '<%= config.dist %>/styles/fonts/{,*/}*.*',
           '<%= config.dist %>/*.{ico,png}'
         ]
@@ -340,7 +340,8 @@ module.exports = function (grunt) {
           dest: '<%= config.dist %>',
           src: [
             '*.{ico,png,txt}',
-            'images/{,*/}*.webp',
+            'images/{,*/}*.png',
+            'images/{,*/}*.jpg',
             '{,*/}*.html',
             'styles/fonts/{,*/}*.*'
           ]
@@ -382,7 +383,7 @@ module.exports = function (grunt) {
       ],
       dist: [
         'babel',
-        'sass',
+        'sass'
         //'imagemin'
         //'svgmin'
       ]
