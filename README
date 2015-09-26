@@ -3,7 +3,7 @@
 1、搭建前端自动化开发环境
 	配置下载源 npm config get registry https://registry.npm.taobao.org
 	测试源  npm info underscore
-	将其配置在 .npmrc 
+	将其配置在 .npmrc
 	registry = https://registry.npm.taobao.org
 	1) yo webapp
 	2) npm cache clean
