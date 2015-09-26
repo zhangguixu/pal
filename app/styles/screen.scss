@@ -24,7 +24,18 @@ body {
   	family:"微软雅黑,Helvetica Neue,Helvetica,Arial,sans-serif";
   }
 }
-
+.section{
+	border-left: 5px solid $base-color;
+	text-indent: 1em;
+	h3{
+		color:#959595;
+		line-height: 30px;
+		font:{
+			weight: 400;
+			size:20px;
+		}
+	}
+}
 /*头部、导航栏*/
 .header{
 	height:80px;
@@ -58,7 +69,7 @@ body {
 	margin-top: 20px;
 	//新闻发布区
 	article{
-		padding: 15px;
+		padding: 12px;
 		background-color: #fff;
 		margin-bottom: 20px;
 		//头部
@@ -108,7 +119,6 @@ body {
 		background-color: #fff;
 		padding: 15px;
 		border:{
-			bottom: 1px solid #d9d9d9;
 			left:2px solid #1b809e;
 		}
 		.intro-title{
@@ -119,12 +129,6 @@ body {
 			color:#666;
 			line-height: 25px;
 		}
-	}
-}
-.section-title{
-	text-align: center;
-	h3{
-		font-size: 18px;
 	}
 }
 
