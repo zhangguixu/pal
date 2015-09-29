@@ -1,5 +1,4 @@
 开发阶段PAL的静态页面
-尝试
 1、搭建前端自动化开发环境
 	配置下载源 npm config get registry https://registry.npm.taobao.org
 	测试源  npm info underscore
@@ -21,3 +20,5 @@
 	4-3、进行图片压缩
 	4-4、生成生产页面
 	4-5、进行开发时页面的自动刷新（注意缓存的问题）
+
+

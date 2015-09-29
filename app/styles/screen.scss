@@ -3,19 +3,17 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 	网站的主体样式文件
 	CONTENTS
 		SETTINGS
-			variables.scss........变量文件
+			variables.scss................变量文件
+			screen-bootstrap-import.......对screen定制（裁剪和覆盖）bootstrap
 		TOOLS
 
 		COMMPONENTS
 
 		BASE
-			screen.scss..........
+			screen.scss....................主页样式
 */
-//自定义变量文件
-@import "_variables.scss";
-// bower:scss
-@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-// endbower
+@import "screen-bootstrap-import";
+
 /*全局样式*/
 body {
   background-color: #F9F6F6;
@@ -42,7 +40,8 @@ body {
 }
 /*申请按钮*/
 .navbar{
-	.pal-btn{
+	//增加权值，覆盖原来的
+	.navbar-pal-btn{
 		width: 90px;
 		height:32px;
 		line-height: 32px;
@@ -67,67 +66,69 @@ body {
 /*内容区*/
 .content{
 	margin-top: 20px;
-	//新闻发布区
-	article{
-		padding: 12px;
-		background-color: #fff;
-		margin-bottom: 20px;
-		//头部
-		.post-head{
-			text-align: center;
-			.post-title{
-				font:{
-					size:2em;
-					weight:400;
+	@at-root{
+		//新闻发布区
+		article{
+			padding: 12px;
+			background-color: #fff;
+			margin-bottom: 20px;
+			//头部
+			.post-head{
+				text-align: center;
+				.post-title{
+					font:{
+						size:2em;
+						weight:400;
+					}
+					color:#303030;
 				}
-				color:#303030;
-			}
-			.post-meta{
-				color:#959595;
-				line-height: 25px;
-				b{
-					color:#00AFC4;
+				.post-meta{
+					color:#959595;
+					line-height: 25px;
+					b{
+						color:#00AFC4;
+					}
 				}
-			}
 
-		}
-		//正文摘要,需要限定高度
-		.post-content{
-			height:90px;
-			margin-top: 10px;
-			overflow: hidden;
-			text-overflow:ellipsis;
-			p{
-				text-indent: 2em;
-				line-height: 28px;
-				font-size: 16px;
+			}
+			//正文摘要,需要限定高度
+			.post-content{
+				height:90px;
+				margin-top: 10px;
+				overflow: hidden;
+				text-overflow:ellipsis;
+				p{
+					text-indent: 2em;
+					line-height: 28px;
+					font-size: 16px;
+				}
+			}
+			//正文底部
+			//类别
+			.post-category{
+				height:30px;
+				padding-top: 20px;
+				color:#959595;
 			}
 		}
-		//正文底部
-		//类别
-		.post-category{
-			height:30px;
-			padding-top: 20px;
-			color:#959595;
-		}
-	}
-	//简介区
-	.intro{
-		margin: 0 auto;
-		margin-bottom: 20px;
-		text-align:center;
-		background-color: #fff;
-		padding: 15px;
-		border:{
-			left:2px solid #1b809e;
-		}
-		.intro-title{
-			font-size: 30px;
-		}
-		.intro-body{
-			font-size: 15px;
-			color:#666;
-			line-height: 25px;
+		//简介区
+		.intro{
+			margin: 0 auto;
+			margin-bottom: 20px;
+			text-align:center;
+			background-color: #fff;
+			padding: 15px;
+			border:{
+				left:2px solid #1b809e;
+			}
+			.intro-title{
+				font-size: 30px;
+			}
+			.intro-body{
+				font-size: 15px;
+				color:#666;
+				line-height: 25px;
+			}
 		}
 	}
 }
