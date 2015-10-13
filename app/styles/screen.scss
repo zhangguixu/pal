@@ -3,60 +3,21 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 	网站的主体样式文件
 	CONTENTS
 		SETTINGS
-			variables.scss................变量文件
-			screen-bootstrap-import.......对screen定制（裁剪和覆盖）bootstrap
+			variables.scss................变量文件，通过对bootstrap变量的设置，基本满足项目需求
+			screen-bootstrap-import.scss.......对首页定制（裁剪和覆盖）bootstrap
+			project-bootstrap-import.scss......对项目内容定制（裁剪和覆盖）bootstrap
 		TOOLS
 
-		COMMPONENTS
-
+		COMPONENTS
+			header.scss....................头部样式，导航栏
+			footer.scss....................底部样式，联系我们
+			section.scss..................栏目样式
+			article.scss..................新闻样式
 		BASE
-			screen.scss....................主页样式
+			screen.scss....................首页样式
+			project.scss...................项目内容样式
 */
 @import "screen-bootstrap-import";
-
-/*全局样式*/
-body {
-  background-color: #F9F6F6;
-  font:{
-  	size:14px;
-  	family:"微软雅黑,Helvetica Neue,Helvetica,Arial,sans-serif";
-  }
-}
-.section{
-	border-left: 5px solid $base-color;
-	text-indent: 1em;
-	h3{
-		color:#959595;
-		line-height: 30px;
-		font:{
-			weight: 400;
-			size:20px;
-		}
-	}
-}
-/*头部、导航栏*/
-.header{
-	height:80px;
-}
-/*申请按钮*/
-.navbar{
-	//增加权值，覆盖原来的
-	.navbar-pal-btn{
-		width: 90px;
-		height:32px;
-		line-height: 32px;
-		background-color:$base-color;
-		color:#fff !important;
-		padding: 0;
-		text-align: center;
-		margin-top:24px;
-		margin-left: 10px;
-		&:hover{
-			background-color:#337AB7 !important;
-			color:#fff !important;
-		}
-	}
-}
 /*大图*/
 .bgpic{
 	margin-top: 15px;
@@ -66,76 +27,6 @@ body {
 /*内容区*/
 .content{
 	margin-top: 20px;
-	@at-root{
-		//新闻发布区
-		article{
-			padding: 12px;
-			background-color: #fff;
-			margin-bottom: 20px;
-			//头部
-			.post-head{
-				text-align: center;
-				.post-title{
-					font:{
-						size:2em;
-						weight:400;
-					}
-					color:#303030;
-				}
-				.post-meta{
-					color:#959595;
-					line-height: 25px;
-					b{
-						color:#00AFC4;
-					}
-				}
-
-			}
-			//正文摘要,需要限定高度
-			.post-content{
-				height:90px;
-				margin-top: 10px;
-				overflow: hidden;
-				text-overflow:ellipsis;
-				p{
-					text-indent: 2em;
-					line-height: 28px;
-					font-size: 16px;
-				}
-			}
-			//正文底部
-			//类别
-			.post-category{
-				height:30px;
-				padding-top: 20px;
-				color:#959595;
-			}
-		}
-		//简介区
-		.intro{
-			margin: 0 auto;
-			margin-bottom: 20px;
-			text-align:center;
-			background-color: #fff;
-			padding: 15px;
-			border:{
-				left:2px solid #1b809e;
-			}
-			.intro-title{
-				font-size: 30px;
-			}
-			.intro-body{
-				font-size: 15px;
-				color:#666;
-				line-height: 25px;
-			}
-		}
-	}
 }
 
-/*底部*/
-.footer{
-	background-color: $base-color;
-	color:white;
-}
 

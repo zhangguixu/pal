@@ -1,0 +1,12 @@
+.section{
+	border-left: 5px solid $base-color;
+	text-indent: 1em;
+	h3{
+		color:#959595;
+		line-height: 30px;
+		font:{
+			weight: 400;
+			size:20px;
+		}
+	}
+}

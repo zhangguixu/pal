@@ -1,0 +1,45 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+/*
+	项目内容页面样式
+*/
+@import "project-bootstrap-import";
+
+.content{
+	margin-top: 20px;
+	@at-root{
+		.sidebar{
+			padding: 20px;
+			color:#777;
+			h3{
+				font-size: 20px;
+				display: block;
+				width: 70%;
+				height: 40px;
+				line-height: 40px;
+				border: none;
+				margin: 10px auto;
+				background-color: transparent;
+				text-align: left;
+			}
+			a{
+				color:#777;
+				&:hover{
+					color:$base-color;
+				}
+			}
+			ul{
+				background-color: transparent;
+				width: 70%;
+				border: none;
+				box-shadow: none;
+				li{
+					display: block;
+					height:45px;
+					line-height: 45px;
+					text-indent: 2em;
+					color:#777;
+				}
+			}
+		}
+	}
+}

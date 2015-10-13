@@ -1,0 +1,21 @@
+//简介区
+.intro{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align:left;
+	text-indent: 2em;
+	background-color: #fff;
+	padding: 15px;
+	border:{
+			left:2px solid #1b809e;
+	}
+	h3{
+		text-align: center;
+		font-size: 25px;
+	}
+	p{
+		font-size: 15px;
+		color:#666;
+		line-height: 25px;
+	}
+}

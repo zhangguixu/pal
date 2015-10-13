@@ -1,0 +1,25 @@
+/*头部、导航栏*/
+.header{
+	height:80px;
+	@at-root{
+		/*申请按钮*/
+		.navbar{
+		//增加权值，覆盖原来的
+		.navbar-pal-btn{
+				width: 90px;
+				height:32px;
+				line-height: 32px;
+				background-color:$base-color;
+				color:#fff !important;
+				padding: 0;
+				text-align: center;
+				margin-top:24px;
+				margin-left: 10px;
+				&:hover{
+					background-color:#337AB7 !important;
+					color:#fff !important;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+//新闻发布区
+article{
+	padding: 12px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	//头部
+	.post-head{
+		text-align: center;
+		.post-title{
+			font:{
+					size:2em;
+					weight:400;
+				}
+			color:#303030;
+		}
+		.post-meta{
+			color:#959595;
+			line-height: 25px;
+			b{
+				color:#00AFC4;
+			}
+		}
+
+	}
+	//正文摘要,需要限定高度
+	.post-content{
+		height:90px;
+		margin-top: 10px;
+		overflow: hidden;
+		text-overflow:ellipsis;
+		p{
+			text-indent: 2em;
+			line-height: 28px;
+			font-size: 16px;
+		}
+	}
+	//类别
+	.post-category{
+		height:30px;
+		padding-top: 20px;
+		color:#959595;
+	}
+}
