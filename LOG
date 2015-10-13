@@ -6,3 +6,7 @@
 	解决：@at-root和命名 x-x-x的方式;
 	2) 进行bootstrap的裁剪，由于是采用sass的编写，因此可以将其不需要引用到的模块去除掉，去除掉冗余的代码来缩小css文件
 	采用的方式则是_名字-bootstrap-import.scss，注意将bootstrap的版权申明写入，尊重bootstrap的作者
+
+|-20151013
+	1)优化了项目css文件的结构，进行了细分，使其更具有更高的重用性
+	2）修改了navbar.scss中的源代码，去除掉了边框
