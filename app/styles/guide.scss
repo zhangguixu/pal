@@ -20,5 +20,16 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 				line-height: 25px;
 			}
 		}
+		.detail{
+			p{
+				text-indent: 2em;
+			}
+			strong{
+				color: #F96060;
+			}
+			.alert{
+				color: #F96060;
+			}
+		}
 	}
 }
