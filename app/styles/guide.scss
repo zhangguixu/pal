@@ -1,0 +1,24 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+/*
+	申请指南页面样式
+*/
+@import "guide-bootstrap-import";
+
+.content{
+	margin-top: 20px;
+	@at-root{
+		.step-content{
+			background-color: #fff;
+			padding: 20px;
+			margin-bottom: 30px;
+			border-radius: 0.5em;
+			.alert{
+				color: #F96060;
+			}
+			p{
+				text-indent: 2em;
+				line-height: 25px;
+			}
+		}
+	}
+}

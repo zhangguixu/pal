@@ -1,0 +1,19 @@
+.sidebar{
+	a{
+		display: block;
+		height: 80px;
+		line-height: 80px;
+		text-align: center;
+		margin: 25px auto;
+		width: 80%;
+		background-color: #EDF1F2;
+		color:#6C6363;
+		font:{
+			size:20px;
+		}
+		&:hover{
+			background-color: $base-color;
+			color:#fff;
+		}
+	}
+}

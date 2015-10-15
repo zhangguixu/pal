@@ -6,6 +6,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 			variables.scss................变量文件，通过对bootstrap变量的设置，基本满足项目需求
 			screen-bootstrap-import.scss.......对首页定制（裁剪和覆盖）bootstrap
 			project-bootstrap-import.scss......对项目内容定制（裁剪和覆盖）bootstrap
+			guide-bootstrap-import.scss........申请指南
 		TOOLS
 
 		COMPONENTS
@@ -13,9 +14,11 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 			footer.scss....................底部样式，联系我们
 			section.scss..................栏目样式
 			article.scss..................新闻样式
+			sidebar.scss..................边栏样式，避免下拉菜单，保持页面整洁
 		BASE
 			screen.scss....................首页样式
 			project.scss...................项目内容样式
+			guide.scss.....................申请指南
 */
 @import "screen-bootstrap-import";
 /*大图*/
