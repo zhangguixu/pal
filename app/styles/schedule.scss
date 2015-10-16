@@ -1,0 +1,54 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+/*
+	日程安排页面样式
+*/
+@import "schedule-bootstrap-import";
+
+.content{
+	@at-root{
+		.schedule{
+			.scale-block{
+				padding: 5px;
+				text-align: center;
+				margin-bottom: 5px;
+			}
+			.schedule-business{
+				background-color:#C0504D;
+				color:#fff;
+			}
+			.schedule-team{
+				background-color: #92CDDC;
+				color:#4798D0;
+			}
+			.schedule-company{
+				background-color: #B2A1C7;
+				color:#5F497A;
+			}
+			.schedule-free{
+				background-color: #9BBB59;
+				color:#22694C;
+			}
+			.schedule-default{
+				background-color: #D99594;
+				color:#EEECE1;
+			}
+		}
+		.link{
+			margin-bottom: 25px;
+			a{
+				display: block;
+				width: 100%;
+				color:#fff;
+				background-color: #E56A45;
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+				font-size: 20px;
+				text-decoration: none;
+				&:hover{
+					background-color: #337AB7;
+				}
+			}
+		}
+	}
+}

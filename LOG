@@ -31,3 +31,6 @@
                                 <li><a href="#5">在港学生分享会</a></li>
                           </ul>
                     </div>
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->

@@ -7,6 +7,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 			screen-bootstrap-import.scss.......对首页定制（裁剪和覆盖）bootstrap
 			project-bootstrap-import.scss......对项目内容定制（裁剪和覆盖）bootstrap
 			guide-bootstrap-import.scss........申请指南
+			schedule-bootstrap-import.scss.....日常安排
 		TOOLS
 
 		COMPONENTS
@@ -19,6 +20,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 			screen.scss....................首页样式
 			project.scss...................项目内容样式
 			guide.scss.....................申请指南
+			schedule.scss..................日常安排
 */
 @import "screen-bootstrap-import";
 /*大图*/
