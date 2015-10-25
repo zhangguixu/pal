@@ -12,25 +12,47 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 				text-align: center;
 				margin-bottom: 5px;
 			}
-			.schedule-business{
+			.pfp-business{
 				background-color:#C0504D;
 				color:#fff;
 			}
-			.schedule-team{
+			.pfp-team{
 				background-color: #92CDDC;
 				color:#4798D0;
 			}
-			.schedule-company{
+			.pfp-company{
 				background-color: #B2A1C7;
 				color:#5F497A;
 			}
-			.schedule-free{
+			.pfp-free{
 				background-color: #9BBB59;
 				color:#22694C;
 			}
-			.schedule-default{
+			.pfp-default{
 				background-color: #D99594;
 				color:#EEECE1;
+			}
+			//pst
+			.pst-default{
+				background-color: #fff;
+			}
+			.pst-internship{
+				background-color: #FCD5B4;
+			}
+			.pst-teaching{
+				background-color: #B7DEE8;
+			}
+			.pst-team{
+				background-color: #E6B8B7;
+			}
+			.pst-company{
+				background-color: #CCC0DA;
+			}
+			.pst-business{
+				background-color: #C4D79B;
+			}
+			.pst-free{
+				background-color: #FFC000;
 			}
 		}
 		.link{
