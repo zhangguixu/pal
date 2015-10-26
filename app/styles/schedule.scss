@@ -57,11 +57,19 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 		}
 		.link{
 			margin-bottom: 25px;
+			.link-default{
+				background-color: #E56A45;
+			}
+			.link-pfp{
+				background-color: #FFC000;
+			}
+			.link-pst{
+				background-color: #C0504D;
+			}
 			a{
 				display: block;
 				width: 100%;
 				color:#fff;
-				background-color: #E56A45;
 				height: 40px;
 				line-height: 40px;
 				text-align: center;

@@ -22,22 +22,48 @@ article{
 		}
 
 	}
-	//正文摘要,需要限定高度
-	.post-content{
-		height:90px;
-		margin-top: 10px;
-		overflow: hidden;
-		text-overflow:ellipsis;
+	//文章文字
+	%p{
 		p{
 			text-indent: 2em;
 			line-height: 28px;
 			font-size: 16px;
 		}
 	}
+	//文章摘要,需要限定高度
+	.post-abstract{
+		height:90px;
+		margin-top: 10px;
+		overflow: hidden;
+		text-overflow:ellipsis;
+		@extend %p;
+	}
+	//文章正文
+	.post-content{
+		margin-top: 10px;
+		padding: 25px;
+		@extend %p;
+		//限制图片
+		img{
+			max-width: 90% !important;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	//footer
+	.post-footer{
+		margin-bottom: 8px;
+	}
 	//类别
 	.post-category{
-		height:30px;
-		padding-top: 20px;
+		height:35px;
+		padding:{
+			top:12px; 
+			left:20px;
+		}
 		color:#959595;
+		border-top: 1px solid #ebebeb;
 	}
+
+
 }

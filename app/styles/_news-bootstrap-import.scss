@@ -1,0 +1,25 @@
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+//全局设置
+@import "setting/variables";
+//模块
+@import "components/header";
+@import "components/footer";
+@import "components/article";
+//bootstrap
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
