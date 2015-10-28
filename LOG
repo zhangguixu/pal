@@ -11,26 +11,6 @@
 	1)优化了项目css文件的结构，进行了细分，使其更具有更高的重用性
 	2）修改了navbar.scss中的源代码，去除掉了边框
 
-	 <div class="sidebar hidden-xs hidden-sm">
-                          <h3 href="#">项目内容</h3>
-                          <ul>
-                                <li><a href="#">项目简介</a></li>
-                                <li><a href="#1">五百强跨国企业研习</a></li>
-                                <li><a href="#2">实战投资竞赛</a></li>
-                                <li><a href="#3">模拟求职workshop</a></li>
-                                <li><a href="#4">商业报告书竞赛</a></li>
-                                <li><a href="#5">在港学生分享会</a></li>
-                          </ul>
-                          <h3>项目优势</h3>
-                          <ul>
-                                <li><a href="#">项目简介</a></li>
-                                <li><a href="#1">五百强跨国企业研习</a></li>
-                                <li><a href="#2">实战投资竞赛</a></li>
-                                <li><a href="#3">模拟求职workshop</a></li>
-                                <li><a href="#4">商业报告书竞赛</a></li>
-                                <li><a href="#5">在港学生分享会</a></li>
-                          </ul>
-                    </div>
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
+|-20151028
+  1）将Animate.css中引入到项目中，实现简单的文字效果
+  2)修改了fadeIn的opacity,1=>0.85
