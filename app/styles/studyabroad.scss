@@ -4,9 +4,15 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 */
 @import "studyabroad-bootstrap-import";
 
+
+
+html,body{
+	overflow-x:hidden;
+}
 .content{
 	margin-top: 10px;
 	@at-root{
+		//图片
 		.pic{
 			width: 100%;
 			height: auto;
@@ -16,6 +22,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 				width: 100%;
 			}
 		}
+		//遮盖层
 		.mask{
 			position: absolute;
 			top:0;
@@ -24,6 +31,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 			height: 100%;
 			background-color: #000;
 		}
+		//广告
 		.slogan{
 			padding-top: 80px;
 			color:#fff;
@@ -36,7 +44,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 				font-size: 20px;
 			}
 			.slogan-detail{
-				margin-top: 150px;
+				margin-top: 80px;
 			}
 
 			.slogan-color-1{
@@ -52,6 +60,10 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 		}
 		.tmp-hide{
 			display: none;
+		}
+		//页面小块
+		.sec{
+
 		}
 	}
 }
