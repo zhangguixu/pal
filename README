@@ -1,4 +1,4 @@
-开发阶段PAL的静态页面
+PAL项目
 1、搭建前端自动化开发环境
 	配置下载源 npm config get registry https://registry.npm.taobao.org
 	测试源  npm info underscore
@@ -12,7 +12,7 @@
 	1)深度定制bootstrap ，建立自己的_variables.scss文件来覆盖bootstrap的默认设置文件_variables中的配置,注意一个加载顺序的问题
 	@import variables
 	@import bootstrap
-	2)进行boostrap模块裁减，缩减文件大小(目前实现不了，会自动补全原来的)
+	2)基于sass，进行boostrap模块裁减，_页面-bootstrap-import.scss中指明引入的boostrap的模块
 3、使用bower进行依赖管理
 4、使用grunt运行
 	4-1、进行js,css压缩
@@ -20,7 +20,12 @@
 	4-3、进行图片压缩
 	4-4、生成生产页面
 	4-5、进行开发时页面的自动刷新（注意缓存的问题）
-
 5、引入Animate.css进行简单的文字动画
+6、SEO
+	6-1 title
+	6-2 meta(keywords and description)
+	6-3 heading h1
+	6-4 img:title alt
+	6-5 nav (基于html的实现)
 
 
