@@ -49,6 +49,14 @@ article{
 			display: block;
 			margin: 0 auto;
 		}
+		.img-left{
+			float:left;
+			margin: 8px;
+		}
+		.img-right{
+			float:right;
+			margin: 8px;
+		}
 	}
 	//footer
 	.post-footer{
@@ -64,6 +72,5 @@ article{
 		color:#959595;
 		border-top: 1px solid #ebebeb;
 	}
-
 
 }

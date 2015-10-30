@@ -10,6 +10,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 			schedule-bootstrap-import.scss.....日常安排
 			news-bootstrap-import.scss.........news
 			studyabroad-bootstrap-import.scss..留学
+			voice-bootstrap-import.scss........学生之声
 		TOOLS
 			animated.scss.......................进行文字的简单动画
 			fadeIn.scss.........................淡入
@@ -25,6 +26,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 			article.scss..................新闻样式
 			sidebar.scss..................边栏样式，避免下拉菜单，保持页面整洁
 			link.scss.....................链接样式
+			back.scss.....................返回
 		BASE
 			screen.scss....................首页样式
 			project.scss...................项目内容样式
@@ -32,6 +34,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 			schedule.scss..................日常安排
 			news.scss......................news全文
 			studyabroad.scss...............留学申请
+			voice.scss.....................学生之声
 */
 @import "screen-bootstrap-import";
 /*大图*/
