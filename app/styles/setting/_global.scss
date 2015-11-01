@@ -1,7 +1,4 @@
-body {
-  background-color: #F9F6F6;
-  font:{
-  	size:14px;
-  	family:"微软雅黑,Helvetica Neue,Helvetica,Arial,sans-serif";
-  }
+//防止页面横向移动
+html,body{
+	overflow-x:hidden;
 }
