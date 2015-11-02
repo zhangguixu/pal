@@ -18,9 +18,52 @@
 |-20151029
   1）留学页面用js做了自适应，width>1000的页面都会有动态广告
 
-|-20101030
+|-20151030
   进行前端的SEO：
   1）提取了各个页面的重点内容，放置到title中
   2）在meta加入了类似的描述
   3）img无法进行优化，不能代表网站的内容
   4）h1的很少，修改了index页面中的h1,使得有点意义
+
+|-20151102
+				<div class="intro">
+                   <!--托福-->
+                  <h4>托福</h4>
+                    <div class="link">
+                      <a class="link-color-1 link-sm" href=""><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>托福考试报名流程及报名步骤</a>
+                    </div>
+                    <div class="link ">
+                      <a class="link-default link-sm" href=""><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>走出“雅思易托福难”的误区</a>
+                    </div>
+                  <!--end-->
+                  <!--SAT-->
+                  <h4>SAT</h4>
+                  <div class="link">
+                      <a class="link-color-3 link-sm" href=""><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>SAT报名流程</a>
+                  </div>
+                   <!--end-->
+                   <!--GRE-->
+                    <h4>GRE</h4>
+                    <div class="link">
+                      <a class="link-pst  link-sm" href=""><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>GRE网上报名程序说明</a>
+                    </div>
+                <!--end-->
+                </div>
+                
+              <div class="intro">
+                <!--雅思-->
+                <h4>雅思</h4>
+                <div class="link">
+                  <a class="link-pfp  link-sm" href="http://www.ibis.com/gb/hotel-7606-ibis-hong-kong-central-and-sheung-wan/index.shtml"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>雅思(IELTS)考试须知及注意事项</a>
+                </div>
+                <div class="link">
+                  <a class="link-pst  link-sm" href="http://www.ibis.com/gb/hotel-7606-ibis-hong-kong-central-and-sheung-wan/index.shtml"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>雅思考试报名流程及具体步骤</a>
+                </div>
+                <!--end-->
+                <!--GMAT-->
+                <h4>GMAT</h4>
+                <div class="link">
+                  <a class="link-color-1 link-sm" href="http://www.ibis.com/gb/hotel-7606-ibis-hong-kong-central-and-sheung-wan/index.shtml"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>GMAT考试需知</a>
+                </div>
+                <!--end-->
+              </div> 

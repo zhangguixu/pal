@@ -317,15 +317,15 @@ module.exports = function (grunt) {
     //     }
     //   }
     // },
-    // uglify: {
-    //   dist: {
-    //     files: {
-    //       '<%= config.dist %>/scripts/scripts.js': [
-    //         '<%= config.dist %>/scripts/scripts.js'
-    //       ]
-    //     }
-    //   }
-    // },
+    uglify: {
+      dist: {
+        files: {
+          '<%= config.dist %>/scripts/studyabroad.*.js': [
+            '<%= config.dist %>/scripts/studyabroad.*.js'
+          ]
+        }
+      }
+    },
     // concat: {
     //   dist: {}
     // },
