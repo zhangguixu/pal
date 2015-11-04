@@ -5,22 +5,22 @@ $font-size-base:                          14px;
 $body-bg:                              #F9F6F6;
 //头部导航栏
 $navbar-height:80px;
-$navbar-default-link-hover-color:       #00AFC4;
-$navbar-default-toggle-hover-bg:        #00AFC4;
+$navbar-default-link-hover-color:       $base-color;
+$navbar-default-toggle-hover-bg:        $base-color;
 $navbar-default-toggle-icon-bar-bg:     #fff;
 $navbar-default-toggle-border-color:    none; //去除掉边框颜色
 
 //新闻块
 $jumbotron-font-size:                   15px;
 $jumbotron-heading-font-size:           26px;
-$jumbotron-bg:                          #fff;
-
+$jumbotron-bg:                          $base-color;
+$jumbotron-color:                       #fff;
 //学生之声
 $thumbnail-bg:                          #fff;
 $thumbnail-border:                      #fff;
 
 //按钮
-$btn-default-bg:                        #00AFC4;
+$btn-default-bg:                        $base-color;
 $btn-default-color:                     #fff;
 
 //panel
@@ -40,3 +40,7 @@ $panel-danger-text:                    #fff;
 
 //table
 $table-cell-padding:                   10px;
+
+//list
+//$state-info-bg:                        $base-color;
+$list-group-active-bg:                 $base-color;
