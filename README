@@ -21,6 +21,7 @@ PAL项目
 	4-4、生成生产页面
 	4-5、进行开发时页面的自动刷新（注意缓存的问题）
 5、引入Animate.css进行简单的文字动画
+	强大的css3动画基本可以满足需求
 6、SEO
 	6-1 title
 	6-2 meta(keywords and description)

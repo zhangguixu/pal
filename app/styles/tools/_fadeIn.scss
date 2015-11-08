@@ -4,7 +4,7 @@
   }
 
   to {
-    opacity: 0.80;
+    opacity: 1;
   }
 }
 @keyframes fadeIn {
@@ -13,11 +13,13 @@
   }
 
   to {
-    opacity: 0.80;
+    opacity: 1;
   }
 }
 
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  animation-duration:4s;
+  animation-delay:2s;
 }
