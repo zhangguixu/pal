@@ -229,7 +229,7 @@ module.exports = function (grunt) {
           '<%= config.dist %>/scripts/{,*/}*.js',
           '<%= config.dist %>/styles/{,*/}*.css',
          // '<%= config.dist %>/images/{,*/}*.*',  不对图片进行重命名
-          '<%= config.dist %>/styles/fonts/{,*/}*.*',
+          //'<%= config.dist %>/styles/fonts/{,*/}*.*',
           '<%= config.dist %>/*.{ico,png}'
         ]
       }
