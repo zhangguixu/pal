@@ -105,4 +105,4 @@ function isImgLoad(callback){
   优化自适应样式，
   加入外来字体
   修改Gruntfile.js，build拷贝fonts文件夹
-  *无法裁剪字体，放弃
+  *无法裁剪字体，放弃---又可以了
