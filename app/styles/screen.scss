@@ -4,6 +4,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 	CONTENTS
 		SETTINGS
 			variables.scss................变量文件，通过对bootstrap变量的设置，基本满足项目需求
+			global.scss....................设置页面宽度为100%，宽度不溢出
+			font.scss......................引入外来字体 
 			screen-bootstrap-import.scss.......对首页定制（裁剪和覆盖）bootstrap
 			project-bootstrap-import.scss......对项目内容定制（裁剪和覆盖）bootstrap
 			guide-bootstrap-import.scss........申请指南
@@ -41,6 +43,24 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 .bgpic{
 	margin-top: 15px;
 	width: 100%;
+	position: relative;
+	img{
+		display: block;
+		width: 100%;
+	}
+	.slogan{
+		position: absolute;
+		top:2vw;
+		left: 0;
+		z-index: 1000;
+		color:#fff;
+		text-align: center;
+		width: 100%;
+		font:{
+			size: 6vw;
+			family:"彩云体";
+		}
+	}
 }
 
 /*内容区*/

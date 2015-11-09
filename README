@@ -28,5 +28,5 @@ PAL项目
 	6-3 heading h1
 	6-4 img:title alt
 	6-5 nav (基于html的实现)
-
+7、引入设计字体，采用css3的vw（单位），来做字体的自适应，目前浏览器都支持
 

@@ -49,7 +49,6 @@
                     </div>
                 <!--end-->
                 </div>
-                
               <div class="intro">
                 <!--雅思-->
                 <h4>雅思</h4>
@@ -101,3 +100,9 @@ function isImgLoad(callback){
   }
 } 
 });
+
+|--20151109
+  优化自适应样式，
+  加入外来字体
+  修改Gruntfile.js，build拷贝fonts文件夹
+  *无法裁剪字体，放弃

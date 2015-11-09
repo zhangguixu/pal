@@ -6,12 +6,16 @@
 //全局设置
 @import "setting/variables";
 @import "setting/global";
+@import "setting/font";
 //模块
 @import "components/header";
 @import "components/section";
 @import "components/footer";
 @import "components/article";
 @import "components/intro";
+//工具
+@import "tools/animated";
+@import "tools/fadeIn";
 //bootstrap
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
