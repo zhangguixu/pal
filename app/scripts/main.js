@@ -1,0 +1,10 @@
+/*
+图片加载后才显示广告
+*/
+$(document).ready(function(){
+	$(".bg").one("load",function(){
+		$(".slogan").addClass("fadeIn");
+	}).each(function(){
+		if(this.complete)$(this).load();
+	});
+});

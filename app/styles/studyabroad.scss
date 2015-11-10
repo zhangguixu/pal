@@ -12,7 +12,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 			width: 100%;
 			height: auto;
 			position: relative;
-			.wall{
+			.bg{
 				display: block;
 				width: 100%;
 			}
@@ -25,6 +25,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 			left:0;
 			top:0;
 			z-index: 1000;
+			opacity: 0;
 		}
 	}
 }
